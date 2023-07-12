@@ -1,0 +1,4 @@
+CUDA_VISIBLE_DEVICES=7 python label_similarity_weaksup_definition.py --dataset "nyt.csv" --use_pos --use_csls --use_select --use_weaksup --use_adapter --adapter 0.15 --use_gloss --seed_val 81 --times '0118-check_4'
+CUDA_VISIBLE_DEVICES=7 python label_similarity_weaksup_definition.py --dataset "nyt.csv" --use_pos --use_csls --use_select --use_weaksup --use_adapter --adapter 0.15 --use_gloss --seed_val 23 --times '0118-check_3'
+CUDA_VISIBLE_DEVICES=7 python label_similarity_weaksup_definition.py --dataset "20news.csv" --use_pos --use_csls --use_select --use_weaksup --use_adapter --adapter 0.01 --use_gloss --seed_val 81 --times '0118-check_2'
+CUDA_VISIBLE_DEVICES=7 python label_similarity_weaksup_definition.py --dataset "20news.csv" --use_pos --use_csls --use_select --use_weaksup --use_adapter --adapter 0.01 --use_gloss --seed_val 23 --times '0118-check_3'
